@@ -1,0 +1,291 @@
+#header {
+    height: 80vh;
+    background-color: black;
+    } 
+
+body {
+    background-color:black;
+}
+
+a {
+    color: rgb(207, 41, 41);
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 3em;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2mm;
+    font-family: 'Montserrat', serif;
+    text-align: center;
+    margin: 2% 0 6% 0;
+}
+
+h5 {
+    margin-bottom: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    height: 100vh;
+    align-self: left;
+    /* margin-right: 5%; */
+}
+
+i {
+    font-size: 3em;
+    vertical-align: middle;
+    margin: 0 2%;
+}
+
+
+#cap {
+    font-size: 2em;
+}
+
+#headlink {
+    max-width: 100%;
+    height: auto;
+    margin: 5% auto;
+    display: block;
+}
+
+#headlink img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#headlink2 {
+    max-width: 100%;
+    height: auto;
+    max-height: 90%;
+    margin: 0 auto;
+    padding-left: 30px;
+
+}
+
+#section {
+    padding: 5% 0% 5% 5%;
+}
+
+#sectionwide1 {
+    background-color: black;
+    background-image: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 6% 0 6% 0;
+}
+
+#sectionwide2 {
+    background-image: url('pasta.jpg');
+    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 10% auto 0% auto;
+    padding: 15% 20%;
+    background-color: black;
+
+}
+
+#sectionwide3 {
+    background-image: url('bowl.jpg');
+    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-attachment: fixed;
+    background-color: black;
+    margin: 6% auto 6% auto;
+    padding: 15% 15%;
+}
+
+#social {
+    font-size: 2em;
+    /* margin: 5% auto; */
+    padding: 3% 0;
+    color: white;
+}
+
+.active {
+    border-bottom: 2px solid white;
+    color: white;
+    text-transform: capitalize;
+}
+
+.address {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1mm;
+    text-transform: uppercase;
+    color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.button {
+    border: 1px solid white;
+    color: white;
+   background-color: black;
+}
+
+.buttons {
+    margin: 0 15%;
+}
+
+.contain {
+    max-width: 600px;
+    height: auto;
+    margin: 2% 15% 5% 8%;
+    color: white;
+}
+
+.container-fluid img {
+    padding-left: none;
+    padding-right: none;
+}
+
+.fab2 {
+    font-size: 2em;
+    display: inline;
+    padding-right: 1%;
+}
+
+.form {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', serif;
+    font-size: 1.25em;
+    border: 1px solid white;
+}
+
+.inputs {
+    padding: 0 16%;
+    text-align: right;
+}
+
+.navbar {
+    padding: 0;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    margin: 0 4px;
+}
+
+.quote {
+    font-size: 1.70em;
+    line-height: 2em;
+    letter-spacing: 1mm;
+    font-weight: 400;
+    color: white;
+    font-family: 'Homemade Apple', cursive;
+    margin: 0 7% 2% 10%;
+}
+
+.sec2 {
+    background-color: white;
+    margin: 5% 0;
+}
+
+.slider {
+    background: black;
+}
+
+.terrace {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.top {
+    text-align: center;
+    margin-top: 3%;
+    color: white;
+    font-family: 'Montserrat', serif;
+    font-size: 1em;
+}
+
+.footer {
+    background-image: url('tir.jpg');
+    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: top;
+    margin: 7% auto 0% auto;
+    padding: 7% 5% 5% 5%;
+    background-color:black;
+    filter: brightness(80%);
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2mm;
+}
+
+
+
+.fade-in {
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+ 
+
+    @media screen and (max-width: 650px) {
+        .footer {
+            font-size: 0.8em;
+            letter-spacing: 1mm;
+        }
+    }
+
+  /*      
+    @media screen and (max-width: 480px) {
+            .jumbotron h1 {
+                font-size: 3em;
+        }
+    } */
