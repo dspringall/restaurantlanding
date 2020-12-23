@@ -20,7 +20,7 @@
 
 <body>
     <a name="home"></a>
-    <div class="px-5">
+    <div class="px-5 pt-2">
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent justify-content-between">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,10 +81,10 @@
         </div>
     </header>
 
-    <div class="container-fluid">
-        <div class="row sec2 justify-content-center">
+    <div class="container-fluid black">
+        <div class="row sec2 justify-content-center black my-5 py-5">
             <div class="col-12 pt-md-4 black">
-                <p class="quote"><span id="cap">S</span>e cocina siempre pensando en alguien, si no se esta
+                <p class="quote black"><span id="cap">S</span>e cocina siempre pensando en alguien, si no se esta
                     solamente
                     preparando de
                     comer, y nosotros... pensamos en cada uno de ustedes.</p>
@@ -92,12 +92,20 @@
         </div>
     </div>
 
-    <div id="sectionwide2"></div>
+    <div class="container-fluid p-0">
+        <div class="my-5">
+            <div id="sectionwide2">
+                <img id="mobImg" src="pasta.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
 
     <a name="hours"></a>
     <div class="container-fluid">
-        <div class="row justify-content-center" id="sectionwide1">
-            <div class="col-lg-4 align-self-center pl-lg-5">
+        <div class="row justify-content-center my-5 py-5" id="sectionwide1">
+            <div class="col-lg-4 align-self-center mt-4 mt-sm-0 pl-lg-5">
                 <h5>Disfruta de la comida Italiana en nuestra terraza</h5>
                 <hr />
                 <p>Lunes Cerrado</p>
@@ -108,7 +116,7 @@
                 <p>Domingo <br>
                     &nbsp;&nbsp; 13:00 - 23:30</p>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-7 mt-4 mt-sm-0 mb-3 mb-sm-0 order-first order-md-last">
                 <img class="terrace center"
                     src="https://static.wixstatic.com/media/f1b706_e9470b0ec72246408b5a2b404b48a8b2~mv2.jpg/v1/fill/w_483,h_355,al_c,q_80,usm_0.66_1.00_0.01/f1b706_e9470b0ec72246408b5a2b404b48a8b2~mv2.webp"
                     alt="">
@@ -116,11 +124,17 @@
         </div>
     </div>
 
-    <div id="sectionwide3"></div>
+    <div class="container-fluid p-0">
+        <div class="my-5">
+            <div id="sectionwide3">
+                <img id="mobImg" src="bowl.jpg" alt="">
+            </div>
+        </div>
+    </div>
 
     <a name="book"></a>
     <div class="container-fluid reserve">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mt-5 mb-3 py-5">
             <div class="col-10 col-md-6 justify-content-center form py-4">
                 <h2>BOOK A TABLE</h2>
                 <form action="POST">
@@ -135,14 +149,14 @@
                         <input type="text" class="number" id="group" min="1" max="8" required>
                     </p>
                     <p>
-                        <button class="submit btn btn-outline-light mt-3">Submit</button>
+                        <button class="submit btn btn-outline-light mt-2 mt-sm-3">Submit</button>
                     </p>
                 </form>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-10 col-md-6 justify-content-center top py-4">
-                <a href="#home" class="btn btn-outline-light mt-3">Return to top <i
+                <a href="#home" class="btn btn-outline-light top mt-3">Return to top <i
                         class="fas fab2 fa-arrow-up"></i></a>
             </div>
         </div>
@@ -150,11 +164,13 @@
 
     <a name="social"></a>
     <div class="footer container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12" style="background-color: rgba(000, 000, 000, 0.8);">
-                <p class="mb-0">FIND US ON SOCIAL MEDIA:
-                    <a href="https://www.facebook.com/ristorantegranadadivino"><i class="fab fa-facebook"
-                            id="social"></i></a>
+        <div class="row justify-content-center" style="background-color: rgba(000, 000, 000, 0.8);">
+            <div class="col-12 col-md-7 align-self-center justify-content-end">
+                <p class="mb-0 pl-5">FIND US ON SOCIAL MEDIA:</p>
+            </div>
+            <div class="col-12 col-md-3 justify-content-start">
+                <p class="mb-0 pr-5"> <a href="https://www.facebook.com/ristorantegranadadivino"><i
+                            class="fab fa-facebook" id="social"></i></a>
                     <a href="https://www.instagram.com/divino_granada/"><i class="fab fa-instagram" id="social"></i></a>
                     <a
                         href="https://www.tripadvisor.es/Restaurant_Review-g187441-d13333720-Reviews-Divino_Ristorante_Italiano-Granada_Province_of_Granada_Andalucia.html">
