@@ -163,6 +163,23 @@ i {
     padding-right: 1%;
 }
 
+.footer {
+    background-image: url('tir.jpg');
+    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: top;
+    margin: 7% auto 0% auto;
+    padding: 7% 5% 5% 5%;
+    background-color:black;
+    filter: brightness(80%);
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2mm;
+}
+
 .form {
     text-align: center;
     color: white;
@@ -224,22 +241,7 @@ i {
     font-size: 1em;
 }
 
-.footer {
-    background-image: url('tir.jpg');
-    background-position: cover;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: top;
-    margin: 7% auto 0% auto;
-    padding: 7% 5% 5% 5%;
-    background-color:black;
-    filter: brightness(80%);
-    text-align: center;
-    color: white;
-    font-size: 1.5em;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2mm;
-}
+
 
 
 
@@ -278,13 +280,48 @@ i {
 
 
     @media screen and (max-width: 480px) {
-        .btn {
-            padding: 0 2px 0 2px;
+        h2 {
+            font-size: 2em;
+            letter-spacing: 1mm;
+            margin: 2% 0 6% 0;
         }
-
         .address {
             font-size: 0.7em;
         }
+        .btn {
+            padding: 0 2px 0 2px;
+        }      
+        .quote {
+            font-size: 1em;
+            letter-spacing: 0.5mm;
+            margin: 0 0 2% 0;
+            text-align: center;
+        }
+        .footer {
+            padding: 0;
+            font-size: 0.8em;
+            letter-spacing: 1mm;
+        }
+        .form {
+            text-align: center;
+            color: white;
+            font-family: 'Montserrat', serif;
+            font-size: 0.7em;
+            border: 1px solid white;
+        }
+        .inputs {
+            padding: 0 2%;
+            text-align: right;
+        }
+        .top {
+            text-align: center;
+            margin-top: 3%;
+            color: white;
+            font-family: 'Montserrat', serif;
+            font-size: 0.8em;
+            padding: 1%;
+}
+
 }
 
   /* 
