@@ -348,6 +348,10 @@ i {
             padding: 0 2%;
             text-align: right;
         }
+
+        .sec2 {
+            background-color: black;
+        }
         .top {
             text-align: center;
             margin-top: 3%;
