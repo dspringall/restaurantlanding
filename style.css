@@ -280,7 +280,10 @@ i {
     @media screen and (max-width: 480px) {
         .btn {
             padding: 0 2px 0 2px;
+        }
 
+        .address {
+            font-size: 0.7em;
         }
 }
 
