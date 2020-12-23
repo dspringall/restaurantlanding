@@ -73,6 +73,13 @@ i {
 
 }
 
+#mobImg {
+    display: none;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 #section {
     padding: 5% 0% 5% 5%;
 }
@@ -280,10 +287,36 @@ i {
 
 
     @media screen and (max-width: 480px) {
+        html, body { 
+            margin:0;
+            padding:0;
+            width:100%;
+            height:100%;
+            overflow: auto;
+        }
+
         h2 {
             font-size: 2em;
             letter-spacing: 1mm;
             margin: 2% 0 6% 0;
+        }
+        #mobImg {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        #sectionwide2 {
+            background-image: none;
+            padding: 0;
+            background-size: 0;
+            margin: 0% auto 0% auto;
+        }
+        #sectionwide3 {
+            background-image: none;
+            padding: 0;
+            background-size: 0;
+            margin: 0% auto 0% auto;
+
         }
         .address {
             font-size: 0.7em;
@@ -296,6 +329,7 @@ i {
             letter-spacing: 0.5mm;
             margin: 0 0 2% 0;
             text-align: center;
+            border: none;
         }
         .footer {
             padding: 0;
